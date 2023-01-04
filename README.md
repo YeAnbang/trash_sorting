@@ -22,4 +22,8 @@
 <p>Step 8: Train your yolo-v7-segmentation model</p>
 
 <h2 align="left">Results</p>
-<p align="center"><a href="https://github.com/mdhmz1/Auto-Annotate#mdhmz1"><img src="https://github.com/mdhmz1/Auto-Annotate/blob/main/asset/logos/auto-annotate-logo-transparent.png" alt="Auto-Annotate Logo" height="240"></a></p>
+<p align="center"><a href="https://github.com/YeAnbang/trash_sorting/blob/main/asset/auto_annotate.png"><img src="https://github.com/YeAnbang/trash_sorting/blob/main/asset/auto_annotate.png" alt="auto_annotate" height="540"></a></p>
+<p align="center"><a href="https://github.com/YeAnbang/trash_sorting/blob/main/asset/results.png"><img src="https://github.com/YeAnbang/trash_sorting/blob/main/asset/results.png" alt="results" height="240"></a></p>
+<p align="center"><a href="https://github.com/YeAnbang/trash_sorting/blob/main/asset/val_batch0_pred.jpg"><img src="https://github.com/YeAnbang/trash_sorting/blob/main/asset/val_batch0_pred.jpg" alt="multi" height="540"></a></p>
+<p align="center"><a href="https://github.com/YeAnbang/trash_sorting/blob/main/asset/val_batch2_pred.jpg"><img src="https://github.com/YeAnbang/trash_sorting/blob/main/asset/val_batch2_pred.jpg" alt="multi" height="540"></a></p>
+

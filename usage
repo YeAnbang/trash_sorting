@@ -1,0 +1,11 @@
+python3 customTrain.py train --dataset=./balloon_dataset/balloon/train/ --weights=coco
+
+
+python3 annotate.py annotateCustom --image_directory=/media/anbang/Crucial\ X6/haihua_garbage_dataset/complex_open_data/val/images/images --label=CustomLabel --weights=./logs/customlabel20221205T0213/mask_rcnn_customlabel_0029.h5 --displayMaskedImages=False
+
+python3 annotate.py annotateCustom --image_directory=/media/anbang/Crucial\ X6/haihua_garbage_dataset/complex_open_data/train/images/datasets/coco/train2017/images_withoutrect --label=CustomLabel --weights=./logs/customlabel20221212T1310/mask_rcnn_customlabel_0049.h5 --displayMaskedImages=True
+
+
+python3 annotate.py annotateCustom --image_directory=/media/anbang/Crucial\ X6/haihua_garbage_dataset/complex_open_data/val/images/images --label=CustomLabel --weights=./logs/customlabel20221215T0330/mask_rcnn_customlabel_0032.h5 --displayMaskedImages=False
+
+python3 annotate.py annotateCustom --image_directory=/media/anbang/Crucial\ X6/haihua_garbage_dataset/single_data/images_withoutrect/images_withoutrect --label=CustomLabel --weights=./logs/customlabel20221215T0330/mask_rcnn_customlabel_0032.h5 --displayMaskedImages=False

@@ -1,0 +1,18 @@
+python3 segment/train.py --data /home/anbang/free_study/Auto-Annotate/TACO/TACO/data/custom.yaml --batch 12 --weights "yolov7-seg.pt" --cfg yolov7-seg.yaml --epochs 30 --name yolov7-seg --img 640 --hyp hyp.scratch-high.yaml
+
+python3 segment/predict.py --source /home/anbang/free_study/Auto-Annotate/TACO/TACO/data/test --data /home/anbang/free_study/Auto-Annotate/TACO/TACO/data/custom.yaml --weights ./runs/train-seg/yolov7-seg8/weights/best.pt --img 640
+
+
+python3 segment/train.py --data /media/anbang/Crucial\ X6/haihua_garbage_dataset/single_data/images_withoutrect/custom.yaml --batch 12 --weights "yolov7-seg.pt" --cfg yolov7-seg.yaml --epochs 50 --name yolov7-seg --img 640 --hyp hyp.scratch-high.yaml
+
+python3 segment/train.py --data /home/anbang/mnt/E/images_withoutrect/custom.yaml --batch 12 --weights "yolov7-seg.pt" --cfg yolov7-seg.yaml --epochs 50 --name yolov7-seg --img 640 --hyp hyp.scratch-high.yaml
+
+python3 segment/predict.py --source /media/anbang/Crucial\ X6/haihua_garbage_dataset/complex_open_data/val/images/images --data /home/anbang/mnt/E/images_withoutrect/custom.yaml --weights ./runs/train-seg/yolov7-seg4/weights/best.pt --img 640
+
+python3 segment/train.py --data /media/anbang/Crucial\ X6/haihua_garbage_dataset/haihua_custom/custom.yaml --batch 12 --weights "yolov7-seg.pt" --cfg yolov7-seg.yaml --epochs 50 --name yolov7-seg --img 640 --hyp hyp.scratch-high.yaml
+
+
+python3 segment/train.py --data /media/anbang/Crucial\ X6/haihua_garbage_dataset/haihua_custom/custom.yaml --batch 12 --weights "/home/anbang/free_study/Auto-Annotate/yolov7-segmentation/runs/train-seg/backup/yolov7-seg5/weights/best.pt" --cfg yolov7-seg.yaml --epochs 30 --name yolov7-seg --img 640 --hyp hyp.scratch-high.yaml
+
+
+python3 segment/predict.py --source /media/anbang/Crucial\ X6/haihua_garbage_dataset/haihua_custom/val --data /media/anbang/Crucial\ X6/haihua_garbage_dataset/haihua_custom/custom.yaml --weights "/home/anbang/free_study/Auto-Annotate/yolov7-segmentation/runs/train-seg/backup/yolov7-seg/weights/best.pt" --img 640

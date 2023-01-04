@@ -1,0 +1,15 @@
+/custom_complex/test.v8i.coco/train/*.jpg
+/custom_complex/test.v8i.coco/test.v9i.coco/
+/TACO/
+/test_auto-seg/
+/logs/customlabel20221215T0330/*.h5
+/*.h5
+/*.zip
+/buffed_data/
+/yolov7-segmentation/runs/*
+/yolov7-segmentation/*.pt
+/yolov7-segmentation/*.mp4
+
+
+
+
